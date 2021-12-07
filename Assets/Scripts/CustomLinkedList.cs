@@ -31,6 +31,20 @@ public class CustomLinkedList<T>
         }
 
         currentNode.Next = node;
+    }
+
+    public CustomNode<T> at(int index)
+    {
+        if (_head == default) return default;
+        var currentNode = _head;
+
+        for (int i = 0; i < index; i++)
+        {
+            if (currentNode.Next == null) return default;
+            currentNode = currentNode.Next;
+        }
+
+        return currentNode;
 
     }
 

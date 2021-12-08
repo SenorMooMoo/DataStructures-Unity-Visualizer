@@ -16,7 +16,7 @@
       <Path>Library/PackageCache/com.unity.ide.vscode@1.2.3</Path>
       <Path>Library/PackageCache/com.unity.mathematics@1.2.1</Path>
       <Path>Library/PackageCache/com.unity.test-framework@1.1.24</Path>
-      <Path>Library/PackageCache/com.unity.textmeshpro@3.0.4</Path>
+      <Path>Library/PackageCache/com.unity.textmeshpro@3.0.6</Path>
       <Path>Library/PackageCache/com.unity.timeline@1.5.4</Path>
       <Path>Library/PackageCache/com.unity.visualscripting@1.5.2</Path>
       <Path>Packages</Path>
@@ -25,7 +25,7 @@
     <explicitExcludes>
       <Path>.git</Path>
       <Path>.idea</Path>
-      <Path>Library</Path>
+      <Path>.vs</Path>
       <Path>Logs</Path>
       <Path>Temp</Path>
       <Path>UserSettings</Path>

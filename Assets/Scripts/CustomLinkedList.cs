@@ -1,8 +1,14 @@
 
+using System.Collections.Generic;
+
 public class CustomLinkedList<T>
 {
     //start of the linked list
     private CustomNode<T> _head;
+
+    
+    //for showcasing the linked list 
+    public CustomNode<T> _Current;
     
     public CustomLinkedList()
     {
@@ -33,7 +39,7 @@ public class CustomLinkedList<T>
         currentNode.Next = node;
     }
 
-    public CustomNode<T> at(int index)
+    public CustomNode<T> At(int index)
     {
         if (_head == default) return default;
         var currentNode = _head;
@@ -48,6 +54,26 @@ public class CustomLinkedList<T>
 
     }
 
+    public Queue<int> ShowAddNode(CustomNode<T> node)
+    {
+        var pointerPositions = new Queue<int>();
+        pointerPositions.Enqueue(0);
+        if (_head == default)
+        {
+            _head = node;
+            return pointerPositions;
+        }
 
+        int index = 1;
+        CustomNode<T> currentNode = _head;
+        while (currentNode.Next != default)
+        {
+            pointerPositions.Enqueue(index++);
+            currentNode = currentNode.Next;
+        }
+
+        currentNode.Next = node;
+        return pointerPositions;
+    }
 
 }

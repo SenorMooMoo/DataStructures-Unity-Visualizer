@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3854b9f-01f4-4e79-b5c9-861091ffc1a2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DataStructures-Unity-Visualizer/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DataStructures-Unity-Visualizer/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DataStructures-Unity-Visualizer/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DataStructures/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DataStructures/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DataStructures/.idea/indexLayout.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DataStructures/.idea/riderModule.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DataStructures-Unity-Visualizer/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DataStructures-Unity-Visualizer/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DataStructures-Unity-Visualizer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DataStructures-Unity-Visualizer/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/NodePrefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/NodePrefab.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/CustomLinkedList.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CustomLinkedList.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Scripts.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Scripts.asmdef" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tests/TestCustomLinkedList.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tests/TestCustomLinkedList.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LinkedListOfGameObjects.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LinkedListOfGameObjects.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,10 +16,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Actions.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/Scripts/LinkedListOfGameObjects.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Actions.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/CustomLinkedList.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/LinkedListOfGameObjects.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="21y3y873ORqjfPFXXdiScuVAcNo" />
@@ -54,10 +51,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="19028">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="392">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="19028" />
+      <option name="pid" value="392" />
       <option name="selectedOptions">
         <list />
       </option>
@@ -75,6 +72,7 @@
       <workItem from="1638899766845" duration="767000" />
       <workItem from="1638900669928" duration="180000" />
       <workItem from="1638900885562" duration="1341000" />
+      <workItem from="1638977089478" duration="14830000" />
     </task>
     <servers />
   </component>
@@ -83,6 +81,17 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
@@ -90,30 +99,17 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/CustomLinkedList.cs</url>
-          <line>58</line>
-          <properties documentPath="C:\Users\timot\OneDrive\Documents\UnityProjects\DataStructures-Unity-Visualizer\Assets\Scripts\CustomLinkedList.cs" initialLine="58" containingFunctionPresentation="method 'ShowAddNode'">
-            <startOffsets>
-              <option value="1161" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1201" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/Scripts/LinkedListOfGameObjects.cs</url>
-          <line>26</line>
-          <properties documentPath="C:\Users\timot\OneDrive\Documents\UnityProjects\DataStructures-Unity-Visualizer\Assets\Scripts\LinkedListOfGameObjects.cs" initialLine="26" containingFunctionPresentation="method 'DequeueAddNode'">
+          <line>31</line>
+          <properties documentPath="C:\Users\timot\OneDrive\Documents\UnityProjects\DataStructures-Unity-Visualizer\Assets\Scripts\LinkedListOfGameObjects.cs" initialLine="19" containingFunctionPresentation="method 'Start'">
             <startOffsets>
-              <option value="649" />
+              <option value="961" />
             </startOffsets>
             <endOffsets>
-              <option value="687" />
+              <option value="1007" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="2" />
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

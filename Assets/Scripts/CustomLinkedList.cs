@@ -6,19 +6,27 @@ public class CustomLinkedList<T>
     //start of the linked list
     private CustomNode<T> _head;
 
+    private int _length;
     
     //for showcasing the linked list 
-    public CustomNode<T> _Current;
+    public CustomNode<T> Current;
     
     public CustomLinkedList()
     {
         _head = default;
+        _length = 0;
     }
 
     public CustomNode<T> Head
     {
         get => _head;
         private set => _head = value;
+    }
+
+    public int Length
+    {
+        get => _length;
+        private set => _length = value;
     }
 
     //Add a node at the end of the list
@@ -37,6 +45,7 @@ public class CustomLinkedList<T>
         }
 
         currentNode.Next = node;
+        _length++;
     }
 
     public CustomNode<T> At(int index)
@@ -49,31 +58,35 @@ public class CustomLinkedList<T>
             if (currentNode.Next == null) return default;
             currentNode = currentNode.Next;
         }
-
+        
         return currentNode;
 
     }
 
-    public Queue<int> ShowAddNode(CustomNode<T> node)
+    public Queue<Actions> ShowAddNode()
     {
-        var pointerPositions = new Queue<int>();
-        pointerPositions.Enqueue(0);
+        var actions = new Queue<Actions>();
+        actions.Enqueue(Actions.Head);
+        actions.Enqueue(Actions.CheckNull);
         if (_head == default)
         {
-            _head = node;
-            return pointerPositions;
+            actions.Enqueue(Actions.WasNull);
+            actions.Enqueue(Actions.Add);
+            return actions;
         }
-
-        int index = 1;
+        actions.Enqueue(Actions.WasNotNull);
         CustomNode<T> currentNode = _head;
+        actions.Enqueue(Actions.CheckNextNull);
         while (currentNode.Next != default)
         {
-            pointerPositions.Enqueue(index++);
+            actions.Enqueue(Actions.WasNotNull);
+            actions.Enqueue(Actions.Next);
             currentNode = currentNode.Next;
+            actions.Enqueue(Actions.CheckNextNull);
         }
-
-        currentNode.Next = node;
-        return pointerPositions;
+        actions.Enqueue(Actions.WasNull);
+        actions.Enqueue(Actions.Add);
+        return actions;
     }
 
 }

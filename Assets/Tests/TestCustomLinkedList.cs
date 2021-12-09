@@ -25,7 +25,7 @@ namespace Tests
             Assert.AreEqual(3, linkedlist.At(3).Data);
             Assert.AreEqual(20, linkedlist.At(1).Data);
 
-            
+
         }
     }
 }

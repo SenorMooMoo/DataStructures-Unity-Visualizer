@@ -64,25 +64,20 @@ public class LinkedListOfGameObjects : MonoBehaviour
                 case Actions.CheckNextNull:
                     GetNodeLine(_linkedList.Current.Data).colorGradient = GetSolidGradient(Color.white);
                     var next = _linkedList.Current;
-                    if(next != null) GetNodeLine(next.Data).colorGradient = GetSolidGradient(Color.red);
+                    if(next != null) GetNodeLine(next.Data).colorGradient = GetSolidGradient(Color.yellow);
                     else
                     {
-                       GetNodeLine(nullNode).colorGradient = GetSolidGradient(Color.red);
+                       GetNodeLine(nullNode).colorGradient = GetSolidGradient(Color.yellow);
                     }
                     break;
                 case Actions.WasNull:
+                    GetNodeLine(_linkedList.Current.Data).colorGradient = GetSolidGradient(Color.red);
                     PointToNode(nullNode);
                     break;
+                case Actions.WasNotNull:
+                    GetNodeLine(_linkedList.Current.Data).colorGradient = GetSolidGradient(Color.green);
+                    break;
                 case Actions.CheckNull:
-                    if (_linkedList.Current == null)
-                    {
-                        GetNodeText(nullNode).color = Color.green;
-                    }
-                    else
-                    {
-                        GetNodeText(_linkedList.Current.Data).color = Color.green;
-                    }
-
                     break;
         }
         textBox.text = pos.ToString();

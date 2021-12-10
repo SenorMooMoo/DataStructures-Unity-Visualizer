@@ -2,9 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3854b9f-01f4-4e79-b5c9-861091ffc1a2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DataStructures-Unity-Visualizer/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DataStructures-Unity-Visualizer/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DataStructures-Unity-Visualizer/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DataStructures-Unity-Visualizer/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DataStructures-Unity-Visualizer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DataStructures-Unity-Visualizer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LinkedListOfGameObjects.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LinkedListOfGameObjects.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tests/TestCustomLinkedList.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tests/TestCustomLinkedList.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/NodePrefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/NodePrefab.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.9/Samples/5 SpriteSwap/Scripts/Runtime/LoadSwapDLC.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.9/Samples/5 SpriteSwap/Scripts/Runtime/LoadSwapDLC.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.9/Samples/5 SpriteSwap/Scripts/Runtime/SwapFullSkin.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.9/Samples/5 SpriteSwap/Scripts/Runtime/SwapFullSkin.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.9/Samples/5 SpriteSwap/Scripts/Runtime/SwapPart.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.9/Samples/5 SpriteSwap/Scripts/Runtime/SwapPart.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/2DAnimationSampleAssetBundles/2DAnimationSampleAssetBundles" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/2DAnimationSampleAssetBundles/2DAnimationSampleAssetBundles" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/2DAnimationSampleAssetBundles/2DAnimationSampleAssetBundles.manifest" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/2DAnimationSampleAssetBundles/2DAnimationSampleAssetBundles.manifest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/2DAnimationSampleAssetBundles/rikrpoison" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/2DAnimationSampleAssetBundles/rikrpoison" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/2DAnimationSampleAssetBundles/rikrpoison.manifest" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/2DAnimationSampleAssetBundles/rikrpoison.manifest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/2DAnimationSampleAssetBundles/rikrrage" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/2DAnimationSampleAssetBundles/rikrrage" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/2DAnimationSampleAssetBundles/rikrrage.manifest" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/2DAnimationSampleAssetBundles/rikrrage.manifest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,10 +64,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="392">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="392" />
+      <option name="pid" />
       <option name="selectedOptions">
         <list />
       </option>
@@ -72,6 +86,7 @@
       <workItem from="1638900669928" duration="180000" />
       <workItem from="1638900885562" duration="1341000" />
       <workItem from="1638977089478" duration="17569000" />
+      <workItem from="1639075962527" duration="1002000" />
     </task>
     <servers />
   </component>
@@ -90,6 +105,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />

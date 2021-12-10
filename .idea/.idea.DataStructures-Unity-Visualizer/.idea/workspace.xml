@@ -6,19 +6,20 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DataStructures-Unity-Visualizer/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DataStructures-Unity-Visualizer/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DataStructures-Unity-Visualizer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DataStructures-Unity-Visualizer/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/NodePrefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/NodePrefab.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.9/Samples/5 SpriteSwap/Scripts/Runtime/LoadSwapDLC.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.9/Samples/5 SpriteSwap/Scripts/Runtime/LoadSwapDLC.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.9/Samples/5 SpriteSwap/Scripts/Runtime/SwapFullSkin.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.9/Samples/5 SpriteSwap/Scripts/Runtime/SwapFullSkin.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.9/Samples/5 SpriteSwap/Scripts/Runtime/SwapPart.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.9/Samples/5 SpriteSwap/Scripts/Runtime/SwapPart.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/2DAnimationSampleAssetBundles/2DAnimationSampleAssetBundles" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/2DAnimationSampleAssetBundles/2DAnimationSampleAssetBundles" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Actions.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Actions.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CustomLinkedList.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CustomLinkedList.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CustomNode.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CustomNode.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LinkedListOfGameObjects.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LinkedListOfGameObjects.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Node.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Node.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScenceTransfer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScenceTransfer.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/2DAnimationSampleAssetBundles/2DAnimationSampleAssetBundles.manifest" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/2DAnimationSampleAssetBundles/2DAnimationSampleAssetBundles.manifest" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/2DAnimationSampleAssetBundles/rikrpoison" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/2DAnimationSampleAssetBundles/rikrpoison" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/2DAnimationSampleAssetBundles/rikrpoison.manifest" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/2DAnimationSampleAssetBundles/rikrpoison.manifest" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/2DAnimationSampleAssetBundles/rikrrage" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/2DAnimationSampleAssetBundles/rikrrage" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/2DAnimationSampleAssetBundles/rikrrage.manifest" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/2DAnimationSampleAssetBundles/rikrrage.manifest" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +30,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Actions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Visuals/LinkedListOfGameObjects.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -87,6 +88,7 @@
       <workItem from="1638900885562" duration="1341000" />
       <workItem from="1638977089478" duration="17569000" />
       <workItem from="1639075962527" duration="1002000" />
+      <workItem from="1639152827042" duration="397000" />
     </task>
     <servers />
   </component>
@@ -109,24 +111,5 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/LinkedListOfGameObjects.cs</url>
-          <line>31</line>
-          <properties documentPath="C:\Users\timot\OneDrive\Documents\UnityProjects\DataStructures-Unity-Visualizer\Assets\Scripts\LinkedListOfGameObjects.cs" initialLine="19" containingFunctionPresentation="method 'Start'">
-            <startOffsets>
-              <option value="961" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1007" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

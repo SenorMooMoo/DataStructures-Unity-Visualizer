@@ -41,23 +41,30 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
-          <e p="Actions.cs" t="Include" />
+          <e p="BaseClasses" t="Include">
+            <e p="Actions.cs" t="Include" />
+            <e p="CustomLinkedList.cs" t="Include" />
+            <e p="CustomNode.cs" t="Include" />
+          </e>
           <e p="CameraControls" t="Include">
             <e p="CameraController.cs" t="Include" />
             <e p="PlayerMovement.cs" t="Include" />
           </e>
-          <e p="CustomLinkedList.cs" t="Include" />
-          <e p="CustomNode.cs" t="Include" />
+          <e p="Controls" t="Include">
+            <e p="ScenceTransfer.cs" t="Include" />
+          </e>
           <e p="EditorScripts" t="Include">
             <e p="Controller.cs" t="Include" />
             <e p="Edge.cs" t="Include" />
-            <e p="Node.cs" t="Include" />
+            <e p="GraphNode.cs" t="Include" />
             <e p="StateManager.cs" t="Include" />
             <e p="Toggle.cs" t="Include" />
           </e>
-          <e p="LinkedListOfGameObjects.cs" t="Include" />
-          <e p="ScenceTransfer.cs" t="Include" />
           <e p="Scripts.asmdef" t="Include" />
+          <e p="Visuals" t="Include">
+            <e p="LinkedListOfGameObjects.cs" t="Include" />
+            <e p="Node.cs" t="Include" />
+          </e>
         </e>
         <e p="Tests" t="Include">
           <e p="TestCustomLinkedList.cs" t="Include" />

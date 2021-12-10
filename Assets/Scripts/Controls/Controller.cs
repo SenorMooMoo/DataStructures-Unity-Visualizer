@@ -80,7 +80,7 @@ public class Controller : MonoBehaviour
             if (Input.GetMouseButtonDown(0))
             {
                 Debug.Log("Clicked");
-                // make sure the nearest node is les than 3f away from the mouse position 
+                // make sure the nearest node is less than 3f away from the mouse position 
                 GameObject nearestNode = null;
                 float distance = Mathf.Infinity;
                 //Vector3.Distance(Nodes.IndexOf(0).transform.position, mousePos);

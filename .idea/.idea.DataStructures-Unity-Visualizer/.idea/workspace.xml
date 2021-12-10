@@ -3,23 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="c3854b9f-01f4-4e79-b5c9-861091ffc1a2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DataStructures-Unity-Visualizer/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DataStructures-Unity-Visualizer/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DataStructures-Unity-Visualizer/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DataStructures-Unity-Visualizer/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DataStructures-Unity-Visualizer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DataStructures-Unity-Visualizer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/NodePrefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/NodePrefab.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Actions.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Actions.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CustomLinkedList.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CustomLinkedList.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CustomNode.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CustomNode.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LinkedListOfGameObjects.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LinkedListOfGameObjects.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Node.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Node.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScenceTransfer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScenceTransfer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/2DAnimationSampleAssetBundles/2DAnimationSampleAssetBundles.manifest" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/2DAnimationSampleAssetBundles/2DAnimationSampleAssetBundles.manifest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/GraphNode.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/GraphNode.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EditorScripts/Controller.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EditorScripts/Controller.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EditorScripts/GraphNode.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EditorScripts/GraphNode.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Visuals/LinkedListOfGameObjects.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Visuals/LinkedListOfGameObjects.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Visuals/Node.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Visuals/Node.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +31,10 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/CustomLinkedList.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/LinkedListOfGameObjects.cs" />
       <option value="$PROJECT_DIR$/Assets/Tests/TestCustomLinkedList.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/EditorScripts/Controller.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Visuals/GraphNode.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Visuals/Dragable.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Visuals/LinkedListOfGameObjects.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="21y3y873ORqjfPFXXdiScuVAcNo" />
@@ -53,6 +50,9 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -89,6 +89,7 @@
       <workItem from="1638977089478" duration="17569000" />
       <workItem from="1639075962527" duration="1002000" />
       <workItem from="1639152827042" duration="397000" />
+      <workItem from="1639168112144" duration="3563000" />
     </task>
     <servers />
   </component>

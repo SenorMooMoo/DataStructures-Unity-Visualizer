@@ -51,19 +51,20 @@
             <e p="PlayerMovement.cs" t="Include" />
           </e>
           <e p="Controls" t="Include">
+            <e p="Controller.cs" t="Include" />
             <e p="ScenceTransfer.cs" t="Include" />
           </e>
           <e p="EditorScripts" t="Include">
-            <e p="Controller.cs" t="Include" />
             <e p="Edge.cs" t="Include" />
-            <e p="GraphNode.cs" t="Include" />
+            <e p="Node.cs" t="Include" />
             <e p="StateManager.cs" t="Include" />
             <e p="Toggle.cs" t="Include" />
           </e>
           <e p="Scripts.asmdef" t="Include" />
           <e p="Visuals" t="Include">
+            <e p="Dragable.cs" t="Include" />
+            <e p="GraphNode.cs" t="Include" />
             <e p="LinkedListOfGameObjects.cs" t="Include" />
-            <e p="Node.cs" t="Include" />
           </e>
         </e>
         <e p="Tests" t="Include">

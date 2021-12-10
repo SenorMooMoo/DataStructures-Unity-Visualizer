@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -126,6 +127,11 @@ public class LinkedListOfGameObjects : MonoBehaviour
         return node.transform.GetChild(1).GetComponent<LineRenderer>();
     }
 
+    private void Update()
+    {
+        UpdateLines();
+    }
+    
     private void UpdateLines()
     {
         if (_linkedList.Head == null) return;
@@ -139,11 +145,5 @@ public class LinkedListOfGameObjects : MonoBehaviour
         GetNodeLine(TempCurrent.Data).SetPosition(0,TempCurrent.Data.transform.position);
         GetNodeLine(TempCurrent.Data).SetPosition(1,nullNode.transform.position);
     }
-    
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-    
+
 }

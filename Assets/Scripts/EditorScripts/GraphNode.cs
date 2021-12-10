@@ -4,7 +4,7 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
 
-public class Node : MonoBehaviour
+public class GraphNode : MonoBehaviour
 {
     public static string lastvalue = "A";
     public string value;
